@@ -27,7 +27,16 @@ $ tmux new -s <name_session>
 $ tmux kill-session -t <name_session>
 ```
 8. Để xóa tất cả session hiện có trên máy ta dùng lệnh:
-`$ pkill -f tmux` 
+```$ pkill -f tmux``` 
 hoặc
-`$ tmux kill-server`
+```$ tmux kill-server```
+
+---
+- **Note:** Nếu muốn sử dụng bất kì lệnh gì khi sử dụng tmux điều đầu tiên ta cần là nhập tổ hợp phím: `Ctrl + b` 
+9. Để lưu session ta cần truy cập vào session đang làm việc và dùng tổ hợp lệnh: `Ctrl + b + d`
+10. Để chia màn hình theo chiều ngang ta dùng tổ hợp lệnh: `Ctrl + b + "`
+11. Để chia màn hình theo chiều dọc ta dùng tổ hợp lệnh: `Ctrl + b + %`
+12. Để xóa đi panel ta dùng tổ hợp lệnh: `Ctrl + b + x`
+13. Để di chuyển giữa các panel ta dùng tổ hợp lệnh: `Ctrl + b + <các phìm mũi tên>` 
+
 
